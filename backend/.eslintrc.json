@@ -47,6 +47,24 @@
             }
         ],
         "no-unused-vars": "off",
-        "@typescript-eslint/no-unused-vars": "error"
+        "@typescript-eslint/no-unused-vars": "error",
+        "quotes": ["off", "double", { "avoidEscape": true }],
+        "indent": ["off", 3],
+        "comma-dangle": ["off", "never"],
+        "padded-blocks": ["off", "never"],
+        "no-trailing-spaces":["off", { "ignoreComments": true }],
+        "import/prefer-default-export": "off",
+        "arrow-body-style" : "off",
+        "import/order": "off",
+        "no-multiple-empty-lines":["error", { "max": 2, "maxBOF": 1 }],
+        "consistent-return": "off",
+        "no-console":"off",
+        "linebreak-style": "off",
+        "max-len": ["error", { "code": 200, "tabWidth": 4 }],
+           "object-curly-newline": ["warn", {
+               "ObjectPattern": { "multiline": true },
+               "ImportDeclaration": "never",
+              "ExportDeclaration": { "multiline": true, "minProperties": 3 }
+           }]
     }
 }
