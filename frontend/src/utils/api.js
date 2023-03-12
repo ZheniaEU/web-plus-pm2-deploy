@@ -139,6 +139,6 @@ class Api {
    }
 }
 // Замените на адрес вашего бэкенда
-const api = new Api("https://api.http://zheniaeu.mesto.nomoredomains.work");
+const api = new Api("https://api.zheniaeu.mesto.nomoredomains.work");
 
 export default api;
